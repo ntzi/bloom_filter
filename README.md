@@ -1,4 +1,4 @@
-# Project Title
+# Bloom Filter
 
 Simple implementation of Bloom Filter.
 
@@ -27,9 +27,9 @@ Maybe the element is there.
 No, the element isn't there.
 ```
 
-### Tests
+## Tests
 
-## Prerequisites
+### Prerequisites
 
 * sys
 * random
@@ -37,7 +37,7 @@ No, the element isn't there.
 * logging
 
 
-## Example
+### Example
 
 ```
 $ tests/bloom_filter_test.py
