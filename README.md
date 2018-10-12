@@ -28,13 +28,24 @@ No, the element isn't there.
 ```
 
 ### Tests
+
+## Prerequisites
+
+* sys
+* random
+* string
+* logging
+
+
+## Example
+
 ```
-$ bloom_filter_test.py
+$ tests/bloom_filter_test.py
 ```
 
 ## Authors
 
-* **Nikos Tziralis** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Nikos Tziralis** - *Initial work* - [Bloom Filter](https://github.com/ntzi/bloom_filter)
 
 ## License
 
