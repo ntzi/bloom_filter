@@ -60,31 +60,3 @@ class BloomFilter:
         # If the positions in bit_vector for all hash functions are True, then the string exists.
         print("Maybe the element is there.")
         return True
-
-
-
-
-
-bloom = BloomFilter(bit_vector_size=10)
-bloom.add("just_some_text")
-bloom.search("just_some_text") # returns 'Maybe the element is there.'
-bloom.search("new_text") # returns 'No, the element isn't there.'
-
-# bloom.add("hey")
-# bloom.add("car")
-#
-# # print(bloom.bit_vector)
-# bloom.search("hi")
-# bloom.search("hey")
-# bloom.search("car")
-# bloom.search("nsd")
-
-# murmur_hash = bloom.hash_murmur(string)
-# fnv_hash = bloom.hash_fnv(string)
-
-# print(fnv_hash % 14)
-# print(murmur_hash % 14)
-#
-# print(murmur_hash)
-# print(fnv_hash)
-
